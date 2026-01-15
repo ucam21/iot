@@ -61,8 +61,12 @@ JTAG Adapter         : Disabled
 # Serial Monitor Settings
 
 Baud Rate : 115200
+
+
 Line Ending : Both NL & CR
-Upload Speed         : 921600 (or 460800 if error)  
+
+
+Upload Speed  : 921600 (or 460800 if error)  
 
 Example : 
 
