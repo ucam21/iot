@@ -43,20 +43,35 @@ CASE 1: USING USB-TO-UART (RECOMMENDED / BEGINNER)
 
 
 Board                : ESP32S3 Dev Module
+
 Port                 : COMx / /dev/cu.usbserial
+
 Upload Speed         : 921600 (or 460800 if error)
+
 CPU Frequency        : 240MHz (WiFi)
+
 Flash Frequency      : 80MHz
+
 Flash Mode           : QIO
+
 Flash Size           : 16MB (or your board size)
+
 Partition Scheme     : Default 4MB with SPIFFS
+
 PSRAM                : Enabled
+
 Arduino Runs On      : Core 1
+
 Events Run On        : Core 1
+
 USB CDC On Boot      : Disabled
+
 Upload Mode          : UART0 / UART
+
 USB Mode             : Disabled
+
 JTAG Adapter         : Disabled
+
 
 # Serial Monitor Settings
 
@@ -86,20 +101,35 @@ void loop() {
 CASE 2: USING USB-OTG (NATIVE USB – ADVANCED)
 
 Board                : ESP32S3 Dev Module
+
 Port                 : USB CDC
+
 Upload Speed         : N/A (ignored)
+
 CPU Frequency        : 240MHz (WiFi)
+
 Flash Frequency      : 80MHz
+
 Flash Mode           : QIO
+
 Flash Size           : 16MB
+
 Partition Scheme     : Default
+
 PSRAM                : Enabled
+
 Arduino Runs On      : Core 1
+
 Events Run On        : Core 1
+
 USB CDC On Boot      : Enabled
+
 Upload Mode          : USB-OTG
+
 USB Mode             : CDC and JTAG
+
 JTAG Adapter         : Integrated USB JTAG
+
 
 
 
